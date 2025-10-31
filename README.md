@@ -1,4 +1,4 @@
-#How to generate ssh key
+# How to generate ssh key
 
     ssh-keygen -t ed25519 -C "gordonkao0709@gmail.com"
     //first enter is created directory
@@ -30,6 +30,7 @@ git branch -M main
 git remote add origin https://github.com/Wasabi7799/114_backend.git
 
 git push -u origin main
+
 
 
 
