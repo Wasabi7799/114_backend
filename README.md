@@ -7,8 +7,13 @@
     cat ~\.ssh\id_ed25519.pub //pub mean public key
     //copy and paste things to "New SSH Key"
     //succes generate ssh key
-
- 
+# Clone the project in cmd or terminal
+    git clone git@....
+# Create project-virtual-environment
+    python3 -m venv .venv
+    Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+    .\.venv\Scripts\Activate.ps1
+## Pip install things...
 # 114_backend
 
 echo "# 114_backend" >> README.md
@@ -30,6 +35,7 @@ git branch -M main
 git remote add origin https://github.com/Wasabi7799/114_backend.git
 
 git push -u origin main
+
 
 
 
